@@ -1,10 +1,11 @@
 .article {
-    border: 1px solid black;
+    border: 1px solid #ffdead;
+    border-radius: 50px;
     color: goldenrod;
 
 }
 
 #intro {
-    font-size: 20px;
+    font-size: 3em;
 
 }
