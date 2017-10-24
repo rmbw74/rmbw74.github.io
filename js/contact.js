@@ -5,22 +5,22 @@ const contactInfo = []
 
 // Create Object for each job entry
 const info1 = {
-    "platformName":"",
-    "userName":"",
-    "url":"",
-    "platformIcon":""
+    "platformName":"Twitter",
+    "userName":"@Fuzzbear",
+    "url":"https://twitter.com/fuzzbear",
+    "platformIcon":"icon-twitter.png"
 }
 const info2 = {
-    "platformName":"",
-    "userName":"",
-    "url":"",
-    "platformIcon":""
+    "platformName":"LinkedIn",
+    "userName":"Raymond Medrano",
+    "url":"https://www.linkedin.com/in/raymond-medrano-02477214/",
+    "platformIcon":"linkedin.png"
 }
 const info3 = {
-    "platformName":"",
-    "userName":"",
-    "url":"",
-    "platformIcon":""
+    "platformName":"Facebook",
+    "userName":"Raymond J Medrano",
+    "url":"https://www.facebook.com/raymond.j.medrano",
+    "platformIcon":"facebook.png"
 }
 // push all entries into contactInfo database using unshift so most recent entry is in front
 contactInfo.unshift(info1) 
