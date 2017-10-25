@@ -11,10 +11,25 @@ const project1 = {
    "team":"none",
    "linkToView":"https://rmbw74.github.io"
 }
-
+const project2 = {
+    "projectName":"Nostrum Company Website",
+    "completeDate":"October 13th 2017",
+    "techUsed":"HTML, CSS, JavaScript",
+    "team":"Greg Lawrence, Kolden Prue, Jenna Solis",
+    "linkToView":"https://github.com/nss-day-cohort-22/company-website-ceaseless-ravens"
+ }
+ const project3 = {
+    "projectName":"Real Emergency Website",
+    "completeDate":"October 18th 2017",
+    "techUsed":"HTML, CSS, JavaScript",
+    "team":"Max Wolf, Jesse Page, Lissa Goforth",
+    "linkToView":"https://github.com/nss-day-cohort-22/company-website-lopsided-pelicans"
+ }
 
 // push all entries into history database using unshift so most recent job is in front
 projects.unshift(project1) 
+projects.unshift(project2) 
+projects.unshift(project3) 
 
  
 //Set the value of the blogPosts key "entries" to the Blog array
