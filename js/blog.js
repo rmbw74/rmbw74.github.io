@@ -53,21 +53,56 @@ const post7 ={
 }
 const post8 ={
     "date": "Thursday October 26",
-    "tag":"NSS Pagination Copy",
+    "tag":"NSS Pagination Copy 8",
     "title":"Pagination",
     "content": "entry to test if pagination is working properly"
 
 }
 const post9 ={
     "date": "Thursday October 26",
-    "tag":"NSS Pagination Copy",
+    "tag":"NSS Pagination Copy 9",
     "title":"Pagination",
     "content": "entry to test if pagination is working properly"
 
 }
 const post10 ={
     "date": "Thursday October 26",
-    "tag":"NSS Pagination Copy",
+    "tag":"NSS Pagination Copy 10",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post11 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy 11",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post12 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy 12",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post13 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy 13",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post14 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy 14",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post15 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy 15",
     "title":"Pagination",
     "content": "entry to test if pagination is working properly"
 
@@ -81,9 +116,7 @@ Blog.unshift(post4)
 Blog.unshift(post5) 
 Blog.unshift(post6) 
 Blog.unshift(post7) 
-Blog.unshift(post8) 
-Blog.unshift(post9) 
-Blog.unshift(post10) 
+
 
  
 //Set the value of the blogPosts key "entries" to the Blog array
