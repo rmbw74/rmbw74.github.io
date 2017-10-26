@@ -23,10 +23,67 @@ const post3 ={
     "content": "Ok so instructor Steve was Soooo impressed with our projectes we get to do it all over again with new teams and new people."
 
 }
+const post4 ={
+    "date": "Monday October 23",
+    "tag":"NSS",
+    "title":"Foomergency - it's definitely a monday",
+    "content": "So, Foo Fighters have cancelled the show in Nashville tonight, My master bathroom window has a broken seal and my bathroom now has a waterfall feature! Today we were introduced to array methods and chaining. I also spent hours trying to chain .forEach before discovering that it cannot be chained. Woo!"
+
+}
+const post5 ={
+    "date": "Tuesday October 24",
+    "tag":"NSS",
+    "title":"Just keep swimming...",
+    "content": "Today we got interviewed by the instructors of the class so that they could better asses our needs. Meg was awesome, and assured me that feeling like everyone else in the class knows more than I do..was completely normal... Just keep swimming."
+
+}
+const post6 ={
+    "date": "Wednesday October 25",
+    "tag":"NSS",
+    "title":"Lexscopawhaa?",
+    "content": "Instructor Steve was nice enough to draw out a course map for us today.. apparently we are on the edge of the hook of dispair.. next stop lexscopistan"
+
+}
+const post7 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Main",
+    "title":"Pagination",
+    "content": "Today I'm going to attempt pagination on this page. If im successful you may see multiple crazy or repeated entries... "
+
+}
+const post8 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post9 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+const post10 ={
+    "date": "Thursday October 26",
+    "tag":"NSS Pagination Copy",
+    "title":"Pagination",
+    "content": "entry to test if pagination is working properly"
+
+}
+
 // push all entries into history database using unshift so newest entry is in front
 Blog.unshift(post1) 
 Blog.unshift(post2) 
 Blog.unshift(post3) 
+Blog.unshift(post4) 
+Blog.unshift(post5) 
+Blog.unshift(post6) 
+Blog.unshift(post7) 
+Blog.unshift(post8) 
+Blog.unshift(post9) 
+Blog.unshift(post10) 
 
  
 //Set the value of the blogPosts key "entries" to the Blog array
