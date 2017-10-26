@@ -7,10 +7,18 @@
     text-align: center;
     
 }
-ul {
-    text-align: left;
-    padding-bottom: 5px;
+#paginator {
+    text-align: center;
+}
+#paginator ul {
+    list-style:none;
 
+}
+#paginator li{
+    display: inline;
+}
+#paginator a {
+    text-decoration:none;
 }
 
 .article.under {
