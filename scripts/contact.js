@@ -8,19 +8,19 @@ const info1 = {
     "platformName":"Twitter",
     "userName":"@Fuzzbear",
     "url":"https://twitter.com/fuzzbear",
-    "platformIcon":"/icon-twitter.png"
+    "platformIcon":"/images/icon-twitter.png"
 }
 const info2 = {
     "platformName":"LinkedIn",
     "userName":"Raymond Medrano",
     "url":"https://www.linkedin.com/in/raymond-medrano-02477214/",
-    "platformIcon":"/linkedin.png"
+    "platformIcon":"/images/linkedin.png"
 }
 const info3 = {
     "platformName":"Facebook",
     "userName":"Raymond J Medrano",
     "url":"https://www.facebook.com/raymond.j.medrano",
-    "platformIcon":"/facebook.png"
+    "platformIcon":"/images/facebook.png"
 }
 // push all entries into contactInfo database using unshift so most recent entry is in front
 contactInfo.unshift(info1) 
