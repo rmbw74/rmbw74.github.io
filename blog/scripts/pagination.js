@@ -1,5 +1,5 @@
 //variable to contain the total number of blog entries
-const totalEntries = Blog.length;
+const totalEntries = retrievedBlogEntries.entries.length;
 
 //variable to contain how many items that will be diplayed per page
 const entriesPerPage = 5;
@@ -91,17 +91,21 @@ function displayBlog(event){
         (integerPageNumber - 1) * entriesPerPage , 
         integerPageNumber * entriesPerPage
     )
-    //build up the DOM string for all the elements that are going to be displayed on the page
-    for (let i = 0; i < entriesToDisplay.length; i++ ){
-        let currentEntry = entriesToDisplay[i];
-        blogEl.innerHTML += `
-        <article class="article under">
-        <section class="article__date"><br>${currentEntry.date}</section>
-        <section class="articleHeader">${currentEntry.title}</section>
-        <section class="article-content"></p>${currentEntry.content}</p></section>
-        <section class="tags">${currentEntry.tag}</section>
-       </article>`
-        }
+    //call the populateBlog function passing to it the entries to display object
+    populateBlog(entriesToDisplay);
+    //this function accets an object (item) that contains the entries that are going to be displayed on the page and builds the appropriate DOM string using a forEach
+    function populateBlog(item){
+        //iterate over the item and for each currentitem, build the string
+        item.forEach(function(currentitem){
+            blogEl.innerHTML+= `
+            <article class="article under">
+            <section class="article__date"><br>${currentitem.date}</section>
+            <section class="articleHeader">${currentitem.title}</section>
+            <section class="article-content"></p>${currentitem.content}</p></section>
+            <section class="tags">${currentitem.tag}</section>
+           </article>`
+        })
+    }
 }
 
 // Get the array of pagination anchor tags we added to the DOM
@@ -117,6 +121,6 @@ displayBlog({
         "classList": ["page-1"]
     }
 })
-
+//add event listener to the previous / next arrows
 previousEl.addEventListener("click", displayBlog)
 nextEl.addEventListener("click", displayBlog)
