@@ -7,8 +7,8 @@ const element = document.getElementById("projectArticleWrapper");
 //iterate over the key in the retrievedBlogEntries object
 for (let key in retrievedProjectEntries) {
 
-  //set current equal to the current key in the object
-  let current = retrievedProjectEntries[key];
+    //set current equal to the current key in the object
+    let current = retrievedProjectEntries[key];
     //iterate over the values in the  array in the current key and build string to inject into the DOM
     for (let i = 0; i < current.length; i++) {
         //set the currentitem to the value of the current array

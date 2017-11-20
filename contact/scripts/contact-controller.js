@@ -12,6 +12,7 @@ for (let key in retrievedContactEntries) {
     //iterate over the values in the  array in the current key and build string to inject into the DOM
     for (let i = 0; i < current.length; i++) {
         //set the currentitem to the value of the current array
+
         let currentitem = current[i];
         element.innerHTML += `<article class="article under">
                                 <figure class="icon">

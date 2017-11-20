@@ -3,7 +3,7 @@ const blogPosts = {}
 //Create Blog array to hold each post object
 const Blog = []
 
-/* // Create Object for each blog post
+// Create Object for each blog post
 const post1 = {
     "date": "Friday October 6th",
     "tag":"NSS",
@@ -122,6 +122,4 @@ Blog.unshift(post7)
 //Set the value of the blogPosts key "entries" to the Blog array
 blogPosts.entries = Blog
 //put the blogPosts object into local storage using stringify
-localStorage.setItem("blogPosts", JSON.stringify(blogPosts)); */
-
-
+localStorage.setItem("blogPosts", JSON.stringify(blogPosts));
