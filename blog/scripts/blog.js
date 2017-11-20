@@ -109,19 +109,17 @@ const post15 ={
 }
 
 // push all entries into history database using unshift so newest entry is in front
-Blog.unshift(post1) 
-Blog.unshift(post2) 
-Blog.unshift(post3) 
-Blog.unshift(post4) 
-Blog.unshift(post5) 
-Blog.unshift(post6) 
-Blog.unshift(post7) 
+Blog.unshift(post1)
+Blog.unshift(post2)
+Blog.unshift(post3)
+Blog.unshift(post4)
+Blog.unshift(post5)
+Blog.unshift(post6)
+Blog.unshift(post7)
 
 
- 
+
 //Set the value of the blogPosts key "entries" to the Blog array
 blogPosts.entries = Blog
 //put the blogPosts object into local storage using stringify
 localStorage.setItem("blogPosts", JSON.stringify(blogPosts));
-
-

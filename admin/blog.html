@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Blog Entry</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Open+Sans" rel="stylesheet">
+    </head>
+        <nav>
+            <a href="../index.html">About</a> |
+            <a href="../blog/index.html">Blog</a> |
+            <a href="../projects/index.html">Projects</a> |
+            <a href="../resume/index.html">Resume</a>
+            <a href="../contact/index.html">Contact</a>
+        </nav>
+    <body>
+        <article id="intro" class="article">
+            <header id="myName">
+                    Blog Entry Form 
+            </header>
+                <figure id="profile">
+                        <img class="profilePhoto" src="../images/photo.jpg" alt="Smiley face">
+                </figure>
+            
+
+            
+        </article>
+
+        <article  class="article under">
+                <header class="articleHeader">
+                    <p>Blog Entry Form</p>
+                </header>
+                
+        </article>
+        <section id = "blogEntry">
+                <label>Title</label>
+                <input type="text" id="blogEntry-title" name="blogEntry-title" placeholder="Blog Title Here"><br>
+                <label>Date</label>
+                <input type="text" id="blogEntry-date" name="blogEntry-date" placeholder="Date"><br>
+                <label>Content</label><br>
+                <textarea id="blogEntry-content"name="blogEntry-content" placeholder="Blog Content Here" rows="10" cols="100"></textarea><br>
+                <label>Tags</label>
+                <input type="text" id="blogEntry-tags" name="blogEntry-tags" placeholder="Enter Tags here">
+                <br>
+                <br>
+                <button id="blogEntry-save-blog" class="blogEntry__button">Save Blog</button>
+         </section> 
+
+        <footer id="footer">
+            <p>&copy 2017 Ray Medrano -- No Hot Dogs were harmed in the making of this web page.</p>
+        </footer>
+        
+
+    </body>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="./scripts/submit.js"></script>
+
+</html>
