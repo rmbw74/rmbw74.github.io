@@ -1,6 +1,6 @@
 //Create object to hold job history array
 const jobHistory = {}
-//Create Blog array to hold each post object
+//Create jobs array to hold each post object
 const jobs = []
 
 // Create Object for each job entry
@@ -27,11 +27,11 @@ const job3 = {
 }
 
 // push all entries into history database using unshift so most recent job is in front
-jobs.unshift(job1) 
-jobs.unshift(job2) 
-jobs.unshift(job3) 
+jobs.unshift(job1)
+jobs.unshift(job2)
+jobs.unshift(job3)
 
- 
+
 //Set the value of the blogPosts key "entries" to the Blog array
 jobHistory.entries = jobs
 //put the blogPosts object into local storage using stringify

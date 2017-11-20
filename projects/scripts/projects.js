@@ -27,11 +27,11 @@ const project2 = {
  }
 
 // push all entries into history database using unshift so most recent job is in front
-projects.unshift(project1) 
-projects.unshift(project2) 
-projects.unshift(project3) 
+projects.unshift(project1)
+projects.unshift(project2)
+projects.unshift(project3)
 
- 
+
 //Set the value of the blogPosts key "entries" to the Blog array
 projectHistory.entries = projects
 //put the blogPosts object into local storage using stringify

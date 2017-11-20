@@ -23,11 +23,11 @@ const info3 = {
     "platformIcon":"./images/facebook.png"
 }
 // push all entries into contactInfo database using unshift so most recent entry is in front
-contactInfo.unshift(info1) 
-contactInfo.unshift(info2) 
-contactInfo.unshift(info3) 
+contactInfo.unshift(info1)
+contactInfo.unshift(info2)
+contactInfo.unshift(info3)
 
- 
+
 //Set the value of the contactListings key "entries" to the contactInfo array
 contactListings.entries = contactInfo
 //put the contactListings object into local storage using stringify

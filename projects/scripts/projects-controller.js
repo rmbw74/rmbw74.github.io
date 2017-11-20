@@ -30,5 +30,5 @@ for (let key in retrievedProjectEntries) {
                                     <p class="article__text">Project Link: <a href="${currentitem.linkToView}">Click Here to View</a></p>
                                 </section>
                              </article>`
-    } 
+    }
 }

@@ -8,7 +8,7 @@ const dateEl = document.getElementById("blogEntry-date");
 const contentEl = document.getElementById("blogEntry-content");
 const tagsEl = document.getElementById("blogEntry-tags");
 
-//target the button that will save the new entries 
+//target the button that will save the new entries
 const saveButtonEl = document.getElementById("blogEntry-save-blog")
 function clearEntryForm(){
     titleEl.value = "";
@@ -18,7 +18,7 @@ function clearEntryForm(){
 }
 function createNewBlogEntry(date, tags, title, content){
     return Object.create(null, {
-        "date": { value: date, enumerable: true }, 
+        "date": { value: date, enumerable: true },
         "tag": { value: tags, enumerable: true },
         "title": { value: title, enumerable: true },
         "content": { value: content, enumerable: true }

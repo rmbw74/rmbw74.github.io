@@ -22,5 +22,5 @@ for (let key in retrievedContactEntries) {
                                     <p class="article__text">User Name: ${currentitem.userName}</p>
                                 </section>
                              </article>`
-    } 
+    }
 }

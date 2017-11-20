@@ -19,5 +19,5 @@ for (var key in retrievedJobEntries) {
                               <section class="article__duration">${currentitem.duration}</section>
                               <section class="article__responsibilities"></p>${currentitem.responsibilities}</p></section>
                              </article>`
-    } 
+    }
 }
