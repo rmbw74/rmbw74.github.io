@@ -3,3 +3,4 @@ node_modules
 .eslintrc.js
 .eslintignore
 build
+package-lock.json
