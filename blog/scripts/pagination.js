@@ -1,4 +1,3 @@
-debugger
 let database = {}
 const getBlog = $.ajax({ url: "https://personalsite-9ec60.firebaseio.com/blogEntries.json" })
 getBlog.then(result => {

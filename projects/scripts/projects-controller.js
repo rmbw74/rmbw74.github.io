@@ -1,5 +1,4 @@
 //retrieve the blog entries stored in local storage and place into object
-debugger
 const getProjects = $.ajax({ url: "https://personalsite-9ec60.firebaseio.com/projectEntries.json" })
 
 getProjects.then(result => {
