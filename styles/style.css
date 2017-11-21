@@ -12,6 +12,7 @@
 }
 #paginator ul {
     list-style:none;
+    padding-left: 0;
 
 }
 #paginator li{
@@ -85,3 +86,9 @@ article p {
     padding-right: 10px;
     text-align: center;
     border-radius: 50%;
+}
+#filter {
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 4px;
+}
