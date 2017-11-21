@@ -3,15 +3,47 @@ const getBlog = $.ajax({ url: "https://personalsite-9ec60.firebaseio.com/blogEnt
 getBlog.then(result => {
     database.blog = result
     paginateBlog(result)
+    return result
 })
+
+filterEl = document.querySelector("input[name='articleFilter']")
+
+filterEl.addEventListener(
+    "keyup",
+    event => {
+        //grab the input value of the filter after the user types more than 3 characters
+        if (event.target.value.length >=3){
+            const input = event.target.value.toLowerCase()
+            console.log(input)
+            console.log(database.blog)
+            let articles = database.blog
+            //create a new filtered array
+            filteredArticles = articles.filter(item => {
+                // Does it maatch any tags?
+                const matchingTag = item.tag.toLowerCase().includes(input)
+
+                // Does it match anything in the title?
+                const matchingTitle = item.title.toLowerCase().includes(input)
+
+                // Does is match anything in the body?
+                const matchingContent = item.content.toLowerCase().includes(input)
+
+                return matchingTitle || matchingContent || matchingTag
+            })
+            paginateBlog(filteredArticles)
+        }else {
+            paginateBlog(database.blog)
+        }
+    }
+)
+
 
 paginateBlog = function(retrievedItems){
     //variable to contain the total number of blog entries
-    debugger
     const totalEntries = retrievedItems.length
 
     //variable to contain how many items that will be diplayed per page
-    const entriesPerPage = 5
+    const entriesPerPage = 3
 
     //variable to contain the value of how many pages we will have in total
     const numberOfPages = Math.ceil(totalEntries / entriesPerPage)
