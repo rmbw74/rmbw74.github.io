@@ -25,22 +25,11 @@
             Search: <input type="text" name="articleFilter">
         </section>
         <article id="projectArticleWrapper">
-            <!-- Inject project articles into DOM from projectHistory Local Storage -->
+            <!-- Inject project articles into DOM from firebase -->
         </article>
-        <!-- <article  class="article under">
-                <header class="articleHeader">
-                    Project 1 - Deploy Personal Site to github.
-                </header>
-                <ul class="projectEntry">
-                    <li>Site should be deployed to github</li>
-                    <li>User should be able to read your story</li>
-                    <li>User should be able to read your blog</li>
-                    <li>User should be able to see contact info</li>
-                    <li>User should be able to see resume</li>
-                </ul>
-            </article> -->
-        
-
+        <section id="paginator">
+            <!-- This is where the project paginator will exist -->
+        </section>
         <footer id="footer">
             <p>&copy 2017 Ray Medrano -- No Hot Dogs were harmed in the making of this web page.</p>
         </footer>
@@ -52,5 +41,6 @@
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
     <!-- <script src="./scripts/projects.js"></script> -->
-    <script src="./scripts/projects-controller.js"></script>
+    <!-- <script src="./scripts/projects-controller.js"></script> -->
+    <script src="./scripts/paginate-projects.js"></script>
 </html>
