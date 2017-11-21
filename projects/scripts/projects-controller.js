@@ -24,17 +24,4 @@ getProjects.then(result => {
                              </article>`
 
     })
-   /*  //iterate over the key in the retrievedBlogEntries object
-    for (let key in result) {
-
-        //set current equal to the current key in the object
-        let current = result[key];
-        //iterate over the values in the  array in the current key and build string to inject into the DOM
-        for (let i = 0; i < current.length; i++) {
-            //set the currentitem to the value of the current array
-            let currentitem = current[i];
-        }
-    } */
-
-
 })
