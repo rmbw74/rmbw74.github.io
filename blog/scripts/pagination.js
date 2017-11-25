@@ -1,9 +1,8 @@
 let database = {}
-const getBlog = $.ajax({ url: "https://personalsite-9ec60.firebaseio.com/blogEntries.json" })
-getBlog.then(result => {
+$.ajax({ url: "https://personalsite-9ec60.firebaseio.com/blogEntries.json" })
+.then(result => {
     database.blog = result
     paginateBlog(result)
-    return result
 })
 
 filterEl = document.querySelector("input[name='articleFilter']")
