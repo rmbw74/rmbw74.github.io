@@ -1,42 +1,56 @@
 {
     "blogEntries": [
-        {
+        {   
+            "blogId": 8,
+            "date": "Tuesday November 21",
+            "tag": "Catching Up",
+            "title": "Playing CatchUP",
+            "content": "Today is the last day before Thanksgiving. Trying to catch up on a ton of things. Now using Firebase to store all entries, but havent gotten posting or putting to firebase working yet"
+        },
+        {   
+            "blogId": 7,
             "date": "Thursday October 26",
             "tag": "NSS Pagination Main",
             "title": "Pagination",
             "content": "Today I'm going to attempt pagination on this page. If im successful you may see multiple crazy or repeated entries... "
         },
-        {
+        {   
+            "blogId": 6,
             "date": "Wednesday October 25",
             "tag": "NSS",
             "title": "Lexscopawhaa?",
             "content": "Instructor Steve was nice enough to draw out a course map for us today.. apparently we are on the edge of the hook of dispair.. next stop lexscopistan"
         },
         {
+            "blogId": 5,
             "date": "Tuesday October 24",
             "tag": "NSS",
             "title": "Just keep swimming...",
             "content": "Today we got interviewed by the instructors of the class so that they could better asses our needs. Meg was awesome, and assured me that feeling like everyone else in the class knows more than I do..was completely normal... Just keep swimming."
         },
         {
+            "blogId": 4,
             "date": "Monday October 23",
             "tag": "NSS",
             "title": "Foomergency - it's definitely a monday",
             "content": "So, Foo Fighters have cancelled the show in Nashville tonight, My master bathroom window has a broken seal and my bathroom now has a waterfall feature! Today we were introduced to array methods and chaining. I also spent hours trying to chain .forEach before discovering that it cannot be chained. Woo!"
         },
         {
+            "blogId": 3,
             "date": "Monday October 16",
             "tag": "NSS",
             "title": "Group project part Deux! the groupening!",
             "content": "Ok so instructor Steve was Soooo impressed with our projectes we get to do it all over again with new teams and new people."
         },
         {
+            "blogId": 2,
             "date": "Friday October 13",
             "tag": "NSS",
             "title": "Ok.. second week over",
             "content": "Oh man, Friday the 13th and we had to complete our first group project, launching a company website using a database constructed and pushed to local storage. I didn't think we were going to have anything to present due to a gitastrophy as instructor Steve would call it, but the team pulled it out at the last second. I feel like I have a better understanding of git and pushing things to local storage. Let's just hope that my own brain stores it!"
         },
         {
+            "blogId": 1,
             "date": "Friday October 6th",
             "tag": "NSS",
             "title": "End of my first week at NSS",
@@ -84,6 +98,13 @@
         }
     ],
     "projectEntries": [
+        {
+            "projectName": "Nutshell",
+            "completeDate": "November 14th 2017, Ongoing",
+            "techUsed": "HTML, CSS, JavaScript, Browserify",
+            "team": "Deanna Vickers, Erin Egobert, Lissa Goforth, Kevin Haggerty",
+            "linkToView": "https://github.com/nss-day-cohort-22/nutshell-unaccountable-baboons"
+        },
         {
             "projectName": "Real Emergency Website",
             "completeDate": "October 18th 2017",
