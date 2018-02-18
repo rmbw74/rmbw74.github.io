@@ -1,0 +1,38 @@
+{
+  "name": "rmbw74.github.io",
+  "version": "1.0.0",
+  "description": "Ray's Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmbw74/rmbw74.github.io.git"
+  },
+  "keywords": [
+    "ray",
+    "personal",
+    "site"
+  ],
+  "author": "Ray Medrano <rmbw74@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmbw74/rmbw74.github.io/issues"
+  },
+  "homepage": "https://github.com/rmbw74/rmbw74.github.io#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "grunt": "^0.4.0",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0",
+    "gruntify-eslint": "^4.0.0"
+  },
+  "dependencies": {}
+}
